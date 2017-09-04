@@ -2,3 +2,12 @@ commerce_invoice.invoice:
   route_name: 'commerce_invoice.page.invoice'
   base_route: 'entity.commerce_order.canonical'
   title: 'Invoice'
+commerce_invoice.list_sub:
+  route_name: 'commerce_invoice.page.invoice'
+  parent_id: 'commerce_invoice.invoice'
+  title: 'View'
+commerce_invoice.invoice.email:
+  route_name: 'commerce_invoice.page.invoice.email'
+  parent_id: 'commerce_invoice.invoice'
+  title: 'Email'
+  weight: 1

@@ -4,3 +4,10 @@ commerce_invoice.page.invoice:
     _controller: '\Drupal\commerce_invoice\Controller\CommerceInvoiceController::selectInvoicePage'
   requirements:
     _permission: 'access commerce administration pages'
+
+commerce_invoice.page.invoice.email:
+  path: 'admin/commerce/orders/{commerce_order}/invoice/email'
+  defaults:
+    _controller: '\Drupal\commerce_invoice\Controller\CommerceInvoiceController::emailInvoicePage'
+  requirements:
+    _permission: 'access commerce administration pages'

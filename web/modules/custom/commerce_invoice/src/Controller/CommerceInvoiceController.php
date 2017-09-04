@@ -15,4 +15,13 @@ class CommerceInvoiceController {
     return $build;
   }
 
+  public function emailInvoicePage($commerce_order) {
+    $build = [];
+    $build['#title'] = 'Invoice ' . $commerce_order;
+
+    $build['#markup'] = '<p>TODO: add email invoice page</p>';
+
+    return $build;
+  }
+
 }
