@@ -15,19 +15,4 @@ class CommerceInvoiceController {
     return $build;
   }
 
-  public function emailInvoicePage($commerce_order) {
-    $build = [];
-
-    $build['#markup'] = '<p>TODO: add invoice email page</p>';
-
-    return $build;
-  }
-
-  public function pdfInvoicePage($commerce_order) {
-    $build = [];
-
-    $build['#markup'] = '<p>TODO: add invoice pdf page</p>';
-
-    return $build;
-  }
 }
