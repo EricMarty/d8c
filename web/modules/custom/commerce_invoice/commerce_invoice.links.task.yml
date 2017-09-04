@@ -1,0 +1,4 @@
+commerce_invoice.invoice:
+  route_name: 'commerce_invoice.page.invoice'
+  base_route: 'entity.commerce_order.canonical'
+  title: 'Invoice'
